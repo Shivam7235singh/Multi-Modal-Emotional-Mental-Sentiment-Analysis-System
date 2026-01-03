@@ -1,0 +1,68 @@
+# ===============================
+# Python cache & compiled files
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+# Virtual environment
+# ===============================
+venv/
+.env
+.env.*
+
+# ===============================
+# ML / AI artifacts & models
+# ===============================
+artifacts/
+models/
+*.h5
+*.pkl
+*.pt
+*.onnx
+*.safetensors
+
+# ===============================
+# Audio / uploads / user data
+# ===============================
+uploads/
+inputs audio/
+*.wav
+*.mp3
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+notebook/.ipynb_checkpoints/
+
+# ===============================
+# Logs & temp files
+# ===============================
+logs/
+*.log
+tmp/
+
+# ===============================
+# OS / Editor files
+# ===============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ===============================
+# Testing & coverage
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===============================
+# Build / distribution
+# ===============================
+build/
+dist/
+*.egg-info/
